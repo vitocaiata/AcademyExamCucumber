@@ -5,11 +5,9 @@ import com.caiata.utils.Utility;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CucumberSteps {
@@ -33,6 +31,7 @@ public class CucumberSteps {
         androidDriver.findElement(By.id(prop.getProperty("app.id.psw"))).sendKeys("admin");
         androidDriver.findElement(By.id(prop.getProperty("app.id.btn.login"))).click();
     }
+
 
     /**
      * Metodo per verificare "benvenuto admin"
