@@ -1,0 +1,910 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21781294100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "error Login, only username",
+        "description": "",
+        "id": "app-test;error-login,-only-username",
+        "after": [
+          {
+            "result": {
+              "duration": 1955434900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2061027400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Error login only with the username",
+            "match": {
+              "location": "CucumberAppTest.errorLogin1()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@App"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18799559800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "error Login, only password",
+        "description": "",
+        "id": "app-test;error-login,-only-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1707936500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 19400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2635122100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Error login only with the password",
+            "match": {
+              "location": "CucumberAppTest.errorLogin2()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@App"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18657355100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "error Login, without user and psw",
+        "description": "",
+        "id": "app-test;error-login,-without-user-and-psw",
+        "after": [
+          {
+            "result": {
+              "duration": 2021243000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 26200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1504277500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Error login only without username and password",
+            "match": {
+              "location": "CucumberAppTest.errorLogin3()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@App"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19096475100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login user",
+        "description": "",
+        "id": "app-test;login-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1746675300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 30300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4381732400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Login with username \u0027user\u0027",
+            "match": {
+              "location": "CucumberAppTest.loginUser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@App"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18904317300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "verify login user",
+        "description": "",
+        "id": "app-test;verify-login-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1767973100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 29400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4610467100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verify welcome user",
+            "match": {
+              "location": "CucumberAppTest.welcomeUser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@App"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19351897000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "test button reset",
+        "description": "",
+        "id": "app-test;test-button-reset",
+        "after": [
+          {
+            "result": {
+              "duration": 1912255100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 29800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2570819000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Login user admin password admin and click refresh btn",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 11
+                },
+                {
+                  "val": "admin",
+                  "offset": 26
+                }
+              ],
+              "location": "CucumberAppTest.resetBtn(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@App"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18556486500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "login with parameter",
+        "description": "",
+        "id": "app-test;login-with-parameter",
+        "after": [
+          {
+            "result": {
+              "duration": 2041643100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2051223100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Insert user admin password admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 12
+                },
+                {
+                  "val": "admin",
+                  "offset": 27
+                }
+              ],
+              "location": "CucumberAppTest.loginWithParameter(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@App"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19766887400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "add one Contact",
+        "description": "",
+        "id": "app-test;add-one-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 1871431500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 27000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6579993100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "add one contact",
+            "match": {
+              "location": "CucumberAppTest.addContact()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@App"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19291681700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "delete",
+        "description": "",
+        "id": "app-test;delete",
+        "after": [
+          {
+            "result": {
+              "duration": 1854472300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 28300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4874651300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "delete contact after login",
+            "match": {
+              "location": "CucumberAppTest.deleteContact()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@App"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18993044500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "add multiple contac",
+        "description": "",
+        "id": "app-test;add-multiple-contac",
+        "after": [
+          {
+            "result": {
+              "duration": 1893052900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 21700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11974893500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "contact1 Vito contact2 Giuseppe contact3 Gennaro",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vito",
+                  "offset": 9
+                },
+                {
+                  "val": "Giuseppe",
+                  "offset": 23
+                },
+                {
+                  "val": "Gennaro",
+                  "offset": 41
+                }
+              ],
+              "location": "CucumberAppTest.add3Contact(String,String,String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 44,
+            "name": "@App"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19281172800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 49,
+        "name": "verify if exist contact",
+        "description": "",
+        "id": "app-test;verify-if-exist-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 1745828700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 28600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8399119800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "add contact1 Vito contact2 Giuseppe contact3 Gennaro and verify if exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vito",
+                  "offset": 13
+                },
+                {
+                  "val": "Giuseppe",
+                  "offset": 27
+                },
+                {
+                  "val": "Gennaro",
+                  "offset": 45
+                }
+              ],
+              "location": "CucumberAppTest.addAndVerify(String,String,String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 48,
+            "name": "@App"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19524066400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start app",
+            "match": {
+              "location": "CucumberAppTest.beforeAll()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "error btn",
+        "description": "",
+        "id": "app-test;error-btn",
+        "after": [
+          {
+            "result": {
+              "duration": 1999934700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppLogin.stopDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberAppTest.stopDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2728831200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "insert username admin password admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 16
+                },
+                {
+                  "val": "admin",
+                  "offset": 31
+                }
+              ],
+              "location": "CucumberAppTest.loginPara(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2704757100,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "click button errore",
+            "match": {
+              "location": "CucumberAppTest.erroreBtn()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 52,
+            "name": "@App"
+          }
+        ]
+      }
+    ],
+    "name": "app test",
+    "description": "\r\nRule: only test on the app",
+    "id": "app-test",
+    "keyword": "Feature",
+    "uri": "appTest.feature"
+  }
+]
